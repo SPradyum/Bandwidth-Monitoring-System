@@ -1,0 +1,28 @@
+This Project is made in Python Programming Language
+
+Setup:
+Things you require to run this code are:
+1. Python Supporter IDE (recommended - Visual Studio Code)
+2. Python installed on your computer
+3. Installing 'psutil' library (run this command in the IDE Terminal : pip install psutil)
+
+Working:
+1.Importing Libraries: This script begins by importing two Python libraries: ‘time’ and ‘psutil’.
+	-> ‘time’ is used for controlling time-related functions.
+	-> ‘psutil’ Is a library for gathering system information, including network data.
+
+2. Initial Network Data: It initializes variables (‘last_received’, ‘last_sent’) to store the total amount of data received and sent over the network at the start of the script.
+
+3. Infinite Loop: The code enters an infinite loop (‘while True’) to continuously monitor network traffic.
+
+4. Curent Network Data: Inside the loop, it retrieves the current amount of data received and sent over the network and calculated the total data transferred (‘bytes_received’,’bytes_sent’,’bytes_total’).
+
+5. New Data Calculation: It calculates the new data received and sent since the last measurement by subtracting the previous values from the current values (‘new_received’,’new_sent’,’new_total’).
+
+6. Data Conversion: The script converts the new data from bytes to megabytes (‘mb_new_received’,’mb_new_sent’,’mb_new_total’) for easier readability.
+
+7. Display: it prints the new data received, sent, and the total data transferred in megabytes with two decimal places.
+
+8. Updating Previous Values: The previous data values (‘last_received’,’last_sent’,’last_total’) are updated with the current values, so they can be used as references in the next iteration.
+
+9. Sleep: The Script pauses for 1 second (‘time.sleep(1)’) before repeating the process, effectively monitoring network traffic every second.
