@@ -5,6 +5,7 @@ Things you require to run this code are:
 1. Python Supporter IDE (recommended - Visual Studio Code)
 2. Python installed on your computer
 3. Installing 'psutil' library (run this command in the IDE Terminal : pip install psutil)
+4. Your computer must be connected to the internet.
 
 Working:
 1.Importing Libraries: This script begins by importing two Python libraries: ‘time’ and ‘psutil’.
@@ -26,3 +27,9 @@ Working:
 8. Updating Previous Values: The previous data values (‘last_received’,’last_sent’,’last_total’) are updated with the current values, so they can be used as references in the next iteration.
 
 9. Sleep: The Script pauses for 1 second (‘time.sleep(1)’) before repeating the process, effectively monitoring network traffic every second.
+
+What's Next?
+So, Basically when you run the code in the IDE. At the terminal who can first see (0.00 MB Received, 0.00 MB Sent, 0.00 MB Total), Now what you have to do just start a browser on your computer keeping the code running at the background.
+After staring the browser keep the code and browser side to side to check the monitoring system is working or not.
+When you search something on the search bar and hit enter, you can see that the bandwidth is starting to receive some mb, this is where the packets from the server of the search engine are getting download.
+After few seconds you realize that the code stops receiving badnwidth but your still browsing, this happens because the downloadation of that page is completed and you can surf only that part of website without a connection.
