@@ -1,4 +1,4 @@
-This Project is made in Python Programming Language
+This Project is made in Python Programming Language. There are two important sections "SETUP" and "INSIGHT" both describes about the project.
 
 Setup:
 Things you require to run this code are:
@@ -7,7 +7,7 @@ Things you require to run this code are:
 3. Installing 'psutil' library (run this command in the IDE Terminal : pip install psutil)
 4. Your computer must be connected to the internet.
 
-Working:
+Insight:
 1.Importing Libraries: This script begins by importing two Python libraries: ‘time’ and ‘psutil’.
 	-> ‘time’ is used for controlling time-related functions.
 	-> ‘psutil’ Is a library for gathering system information, including network data.
@@ -28,7 +28,7 @@ Working:
 
 9. Sleep: The Script pauses for 1 second (‘time.sleep(1)’) before repeating the process, effectively monitoring network traffic every second.
 
-What's Next?
+What's Next?:
 So, Basically when you run the code in the IDE. At the terminal who can first see (0.00 MB Received, 0.00 MB Sent, 0.00 MB Total), Now what you have to do just start a browser on your computer keeping the code running at the background.
 After staring the browser keep the code and browser side to side to check the monitoring system is working or not.
 When you search something on the search bar and hit enter, you can see that the bandwidth is starting to receive some mb, this is where the packets from the server of the search engine are getting download.
